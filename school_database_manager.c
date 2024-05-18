@@ -9,15 +9,11 @@ struct School_database
   char std_class[MAX_RECORD][50];
   int num_records;
 
-
-
-
 } db;
 
 void
 view_rec ()
 {
-
 
   int user_inpt_2;
 
@@ -45,8 +41,6 @@ void
 add_new_rec ()
 {
 
-
-
   printf ("ENTER STUDENT NAME: \n");
   scanf (" %[^\n]", db.std_name[db.num_records]);
   printf ("ENTER STUDENT CLASS: \n");
@@ -59,15 +53,11 @@ add_new_rec ()
 
   welcomescreen ();
 
-
 }
-
-
 
 void
 welcomescreen ()
 {
-
   int user_inpt_1;
 
   printf
@@ -92,11 +82,6 @@ welcomescreen ()
 int
 main ()
 {
-
   welcomescreen ();
-
-
-
-
 
 }
